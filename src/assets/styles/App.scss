@@ -1,7 +1,19 @@
+@import './Vars.scss';
+@import './Media.scss';
+
 body {
-  background: red;
   margin: 0;
+  font-family: $theme-font;
+  background: $main-color;
 }
-h1 {
+
+* {
+  box-sizing: border-box;
+}
+.loading__title {
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
